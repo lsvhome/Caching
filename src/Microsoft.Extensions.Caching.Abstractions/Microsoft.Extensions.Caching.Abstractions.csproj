@@ -11,10 +11,11 @@ Microsoft.Extensions.Caching.Memory.IMemoryCache</Description>
     <NoWarn>$(NoWarn);CS1591</NoWarn>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageTags>cache;memorycache;distributedcache</PackageTags>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Primitives" Version="$(MicrosoftExtensionsPrimitivesPackageVersion)" />
+    <ProjectReference Include="..\..\..\asplabs\src\Microsoft.Extensions\Microsoft.Extensions\Microsoft.Extensions.csproj" />
   </ItemGroup>
 
 </Project>
