@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\common\src\Microsoft.Extensions.Primitives\Microsoft.Extensions.Primitives.csproj" />
+    <ProjectReference Include="..\..\..\options\src\Microsoft.Extensions.Options\Microsoft.Extensions.Options.csproj" />
     <ProjectReference Include="..\Microsoft.Extensions.Caching.Abstractions\Microsoft.Extensions.Caching.Abstractions.csproj" />
   </ItemGroup>
 
