@@ -15,7 +15,7 @@ Microsoft.Extensions.Caching.Memory.IMemoryCache</Description>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\asplabs\src\Microsoft.Extensions\Microsoft.Extensions\Microsoft.Extensions.csproj" />
+    <ProjectReference Include="..\..\..\common\src\Microsoft.Extensions.Primitives\Microsoft.Extensions.Primitives.csproj" />
   </ItemGroup>
 
 </Project>
